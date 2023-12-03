@@ -1,0 +1,109 @@
+/* AdminDashboard.css */
+
+.admin-dashboard-container {
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 10px;
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  #search {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  #search:focus {
+    border-color: #007bff;
+  }
+  
+  .search-icon {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-icon:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table .selected {
+    background-color: #d3d3d3;
+  }
+  
+  .user-table td button {
+    padding: 8px;
+    margin-right: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-table td button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .pagination button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-selected {
+    padding: 10px;
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-selected:hover {
+    background-color: #e74c3c;
+  }
+  
